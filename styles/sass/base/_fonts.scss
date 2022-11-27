@@ -1,4 +1,60 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('/fonts/Merriweather-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Merriweather';
+    src: url('/fonts/Merriweather-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('/fonts/VarelaRound-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('/fonts/VarelaRound-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('/fonts/MerriweatherSans-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MerriweatherSans';
+    src: url('/fonts/MerriweatherSans-Regular.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-Bold.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 700;
 }
