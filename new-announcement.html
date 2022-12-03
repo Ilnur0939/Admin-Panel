@@ -9,44 +9,63 @@
 </head>
 <body>
 
+    <h1 class="visually-hidden">New announcement</h1>
+
     <main>
             <div class="container">
                 <div class="box">
+
                     <div class="navbar">
                         <img class="navbar__logo" src="./images/navbar-img/GulBozor-Logo.svg" alt="">
                         <nav class="navbar__box">
                             <ul class="navbar__list">
-                                <li class="navbar__item" id="1">
-                                    <img class="navbar__img" src="./images/navbar-img/new-announcements.svg" alt="Yangi e'lonlar">
-                                    <a href="#" class="navbar__link">Yangi e'lonlar</a>
+                                <li class="navbar__item navbar__item--btn" id="1">
+                                    <a href="./new-announcement.html" class="navbar__link">
+                                        <img class="navbar__img navbar__img--color" src="./images/navbar-img/new-announcements.svg" alt="Yangi e'lonlar">
+                                        <p class="navbar__linktxt navbar__link--color" style="color: #1ab369;">Yangi e'lonlar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="2">
-                                    <img class="navbar__img" src="./images/navbar-img/shops.svg" alt="Do'konlar">
-                                    <a href="#" class="navbar__link">Do'konlar</a>
+                                    <a href="./shops.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/shops.svg" alt="Do'konlar">
+                                        <p class="navbar__linktxt">Do'konlar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="3">
-                                    <img class="navbar__img" src="./images/navbar-img/categories.svg" alt="Categoryalar">
-                                    <a href="#" class="navbar__link">Categoryalar</a>
+                                    <a href="./categories.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/categories.svg" alt="Categoryalar">
+                                        <p class="navbar__linktxt">Categoryalar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="4">
-                                    <img class="navbar__img" src="./images/navbar-img/users.svg" alt="Foydalanuvchilar">
-                                    <a href="#" class="navbar__link">Foydalanuvchilar</a>
+                                    <a href="./users.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/users.svg" alt="Foydalanuvchilar">
+                                        <p class="navbar__linktxt">Foydalanuvchilar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="5">
-                                    <img class="navbar__img" src="./images/navbar-img/resume.svg" alt="E'lonlar">
-                                    <a href="#" class="navbar__link">E'lonlar</a>
+                                    <a href="./announcements.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/resume.svg" alt="E'lonlar">
+                                        <p class="navbar__linktxt">E'lonlar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="6">
-                                    <img class="navbar__img" src="./images/navbar-img/youtube.svg" alt="Video qo'lanmalar">
-                                    <a href="#" class="navbar__link">Video qo'lanmalar</a>
+                                    <a href="./video-tutorial.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/youtube.svg" alt="Video qo'lanmalar">
+                                        <p class="navbar__linktxt">Video qo'lanmalar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="7">
-                                    <img class="navbar__img" src="./images/navbar-img/settings.svg" alt="Sozlamalar">
-                                    <a href="#" class="navbar__link">Sozlamalar</a>
+                                    <a href="./settings.html" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/settings.svg" alt="Sozlamalar">
+                                        <p class="navbar__linktxt">Sozlamalar</p> 
+                                    </a>
                                 </li>
                                 <li class="navbar__item" id="8">
-                                    <img class="navbar__img" src="./images/navbar-img/advertising.svg" alt="Reklama">
-                                    <a href="#" class="navbar__link">Reklama</a>
+                                    <a href="#" class="navbar__link">
+                                        <img class="navbar__img" src="./images/navbar-img/advertising.svg" alt="Reklama">
+                                        <p class="navbar__linktxt">Reklama</p> 
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -79,13 +98,14 @@
                             </div>
 
                             <div class="order__info">
-                                <div>
+                                <div class="order__boxselect">
                                     <label class="order__label" for="">O'simlik turi</label>
                                     <br><select class="order__select" name="gul turi" id="gul">
                                         <option value="ramashka">Ramashka</option>
                                         <option value=""></option>
                                         <option value=""></option>
                                     </select>
+                                    <span class="order__arrow"></span>
                                 </div>
                                 <div class="order__inpbox">
                                     <label class="order__label" for="">diametri</label>
@@ -131,12 +151,10 @@
 
                         </form>
                     </div>
+                    
                 </div>
             </div>
-
     </main>
 
-
-    <script src="./JavaScript/navbar.js"></script>
 </body>
 </html>

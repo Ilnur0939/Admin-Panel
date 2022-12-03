@@ -28,21 +28,31 @@
         display: flex;
         align-items: center;
         position: relative;
-        padding-bottom: 45px;
+        padding-bottom: 30px;
     }
 
     .navbar__link{
+        display: flex;
+        align-items: center;
+        top: -15px;
+        width: 100%;
+        height: 60px;
         position: relative;
-        z-index: 1;
-        @include font('MerriweatherSans', normal, 400, 20px, 25px, #ffffff);
-        margin-left: 25px;
+        z-index: 2;
         &:target{
             color: #2a2a2a;
             background: #fdfff4;
         }
     }
 
+    .navbar__linktxt{
+        @include font('MerriweatherSans', normal, 400, 20px, 25px, #ffffff);
+        margin-left: 25px;
+    }
+
     .navbar__img{
+        width: 30px;
+        height: 30px;
         position: relative;
         z-index: 2;
     }
@@ -55,7 +65,7 @@
         top: -14px;
         z-index: 1;
         left: -18px;
-        width: 294px;
+        width: 289px;
         height: 60px;
         background: #ffffff;
         border-top-left-radius: 25px;
@@ -63,11 +73,12 @@
     }
 }
 .navbar__link--color{
+    color: #00DF4C;
     &::before{
         content: "";
         position: absolute;
-        left: 186px;
-        top: -47px;
+        left: 241px;
+        top: -29px;
         width: 30px;
         height: 30px;
         border-top-right-radius: 8px;
@@ -79,12 +90,12 @@
     &::after{
         content: "";
         position: absolute;
-        left: 186px;
-        top: 43px;
+        left: 241px;
+        bottom: -31px;
         width: 30px;
         height: 30px;
         border-top-right-radius: 20px;
-        box-shadow: 5px -7px 0 #ffffff;
+        box-shadow: 5px -7px 0 rgb(255, 255, 255);
         background: #00DF4C;
         
     }

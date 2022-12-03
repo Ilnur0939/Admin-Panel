@@ -35,3 +35,29 @@ img{
     white-space: nowrap;
     width: 1px;
   }
+
+.background-color{
+    position: relative;
+    background: #F4F4F4;
+    margin: 0 auto;
+}
+
+.overflow__section{
+    position: relative;
+    overflow: hidden;
+}
+
+.background__body{
+    background: #F4F4F4;
+}
+
+.panel-back{
+    width: 1000px;
+    overflow: hidden;
+    margin-left: 30px;
+    padding-right: 50px;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}

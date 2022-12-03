@@ -1,0 +1,245 @@
+.video__form {
+  width: 1000px;
+  height: 211px;
+  margin-left: 31px;
+  margin-top: 70px;
+  padding-left: 24px;
+  border-radius: 30px;
+  background: #ffffff;
+
+  .vid-form__top {
+    display: flex;
+    padding-top: 40px;
+
+    .vid-form__search{
+        margin-bottom: 0;
+        margin-top: auto;
+        margin-left: 54px;
+        width: 97px;
+        height: 30px;
+        background: #FEF200;
+        border-radius: 3px;
+        border: none;
+        @include font("MerriweatherSans", normal, 400, 14px, 18px, #565656);
+
+        &:hover{
+            letter-spacing: 2px;
+            opacity: 0.8;
+        }
+        &:active{
+            opacity: 0.6;
+            color: #fff;
+        }
+    }
+    
+  }
+}
+
+.vid-form__sm {
+  width: 108px;
+  flex-wrap: wrap;
+}
+
+.vid-form__md{
+    margin-left: 62px;
+}
+
+.vid-form__lg{
+    margin-left: 79px;
+}
+.vid-form__label {
+  @include font("MerriweatherSans", normal, 400, 14px, 18px, #969696);
+}
+
+.vid-form__inp {
+  width: 100%;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  appearance: none;
+
+  &:focus {
+    border: 1px solid;
+    background: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.3rem rgba(0, 123, 255, 0.459);
+    transition: all 0.5s;
+  }
+}
+
+
+.vid-form__add{
+    width: 109px;
+    height: 30px;
+    margin-top: auto;
+    margin-left: 45px;
+    background: #0038FE;
+    border-radius: 3px;
+    border: none;
+    @include font("MerriweatherSans", normal, 400, 14px, 18px, #fff);
+
+    &:hover{
+        letter-spacing: 2px;
+        opacity: 0.8;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+
+
+.shops__info {
+    // overflow: hidden;
+    margin-top: 51px;
+    margin-left: 25px;
+    margin-right: 30px;
+
+    .video__header{
+        @include row;
+    }
+
+    .video__head{
+        @include font('MerriweatherSans', normal, 400, 20px, 25px, #969696);
+        &:nth-child(1){
+            margin-left: 83px;
+        }
+        &:nth-child(2){
+            margin-left: 200px;
+            margin-right: 60px;
+        }
+        
+        &:last-child{
+            margin-left: 164px;
+        }
+        
+    }
+}
+
+.video__line{
+    margin-top: 8px;
+    border: 1px solid #b4b4b470;
+    color: #b4b4b4; 
+}
+
+.video__main{
+    margin-top: 15px;
+    @include row;
+    
+    .video__iframe{
+        margin-right: 30px;
+    }
+    .video__name{
+        width: 120px;
+        @include font('MerriweatherSans', normal, 400, 16px, 20px, #4E4E4E);
+    }
+
+    .video__category{
+        width: 120px;
+        @include font('MerriweatherSans', normal, 400, 16px, 20px, #4E4E4E);
+    }
+    .video__address{
+        width: 260px;
+        flex-wrap: wrap;
+
+        @include font('MerriweatherSans', normal, 400, 20x, 25px, #969696);
+    }
+
+    .video__edit{
+        width: 47px;
+        height: 30px;
+        background: #FEF200;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 3px;
+        border: none;
+    }
+    .video__delete{
+        width: 47px;
+        height: 30px;
+        margin-left: 20px;
+        background: #FF2600;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border-radius: 3px;
+        border: none;
+    }
+}
+
+.video__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .video__left{
+        position: relative;
+        @include font('MerriweatherSans', normal, 400, 16px, 20px, #ffffff);
+        width: 98px;
+        height: 30px;
+        padding-left: 20px; 
+        margin-right: 21px;
+        background: #00DF4C;
+        border-radius: 3px;
+        border: none;
+
+        &:hover{
+            box-shadow: 0 10px 10px #000000;
+            transform: scale(1.03);
+        }
+        &:active{
+            box-shadow: 0 0px 0px;
+            transform: translateY(4px);
+        }
+
+        &::before{
+            content: "";
+            position: absolute;
+            display: inline-block;
+            top: 50%;
+            left: 0px;
+            transform: translateY(-50%);
+            width: 25px;
+            height: 25px;
+            background: url(/images/shops-img/shops-arrow.svg) no-repeat;
+        }
+    }
+    .video__right{
+        position: relative;
+        @include font('MerriweatherSans', normal, 400, 16px, 20px, #ffffff);
+        width: 98px;
+        height: 30px;
+        padding-right: 20px; 
+        margin-left: 21px;
+        background: #00DF4C;
+        border-radius: 3px;
+        border: none;
+
+        &:hover{
+            box-shadow: 0 10px 10px #000000;
+            transform: scale(1.03);
+        }
+        &:active{
+            box-shadow: 0 0px 0px;
+            transform: translateY(4px);
+        }
+
+        &::after{
+            content: "";
+            position: absolute;
+            display: inline-block;
+            top: 10%;
+            right: 0px;
+            transform: rotate(180deg);
+            width: 25px;
+            height: 25px;
+            background: url(/images/shops-img/shops-arrow.svg) no-repeat;
+        }
+    }
+}
