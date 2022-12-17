@@ -63,8 +63,8 @@
 .users__head{
     @include font('MerriweatherSans', normal, 400, 20px, 25px, #969696);
     &:nth-child(2){
-        margin-left: 86px;
-        margin-right: 110px;
+        margin-left: 120px;
+        margin-right: 130px;
     }
     &:nth-child(3){
         text-align: center;
@@ -77,7 +77,7 @@
     
     &:last-child{
         text-align: center;
-        margin-left: 47px;
+        margin-left: 80px;
     }
     
 }

@@ -16,12 +16,13 @@ close.addEventListener('click', function(){
 })
 
 
-// let delet = document.querySelectorAll('.announ__delete').values;
-// let list = document.querySelectorAll('.announ__main')
+let delet = document.querySelectorAll('.announ__delete').values;
+let list = document.querySelectorAll('.announ__main')
+let line = document.querySelector('.shops__line')
 
-// list.forEach(del => {
-//     del.children[6].addEventListener('click', function(){
-//         del.remove()
-        
-//     })
-// })
+list.forEach(del => {
+    del.children[6].addEventListener('click', function(){
+        del.remove()
+        line.remove()
+    })
+})
